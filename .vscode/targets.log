@@ -1,0 +1,418 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul  5 08:25:23 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = plasma
+# environment
+KONSOLE_DBUS_WINDOW = /Windows/1
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 11)
+RACE_FLAG := -race -cpu 1,2,4
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/number9/.gtkrc:/home/number9/.config/gtkrc
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/number9/.Xauthority
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/number9/Projects/ldap
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/code
+# environment
+KONSOLE_VERSION = 220402
+# environment
+QT_EXCLUDE_GENERIC_BEARER = 1
+# environment
+XDG_CONFIG_DIRS = /home/number9/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+IM_CONFIG_PHASE = 1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/plasma:/home/number9/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+XCURSOR_SIZE = 24
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8bbdb0af-2f91-49c8-a91b-8c6dc339427e.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/number9/Projects/ldap
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/number9/go/bin
+# environment
+MOZ_USE_XINPUT2 = 1
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/number9-vm:@/tmp/.ICE-unix/1473,unix/number9-vm:/tmp/.ICE-unix/1473
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+WINDOWID = 60817415
+# environment
+GOPATH = /home/number9/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/number9/.gtkrc-2.0:/home/number9/.config/gtkrc-2.0
+# environment
+PROFILEHOME = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 5)
+GO_RELEASE_TAGS := :go1.1:go1.2:go1.3:go1.4:go1.5:go1.6:go1.7:go1.8:go1.9:go1.10:go1.11:go1.12:go1.13:go1.14:go1.15:go1.16:go1.17:go1.18:
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-vl1uMCl64AW8/agent.1281
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+XCURSOR_THEME = Qogir-cursors
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/number9/Projects/ldap
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1333
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+GOMODCACHE = /home/number9/go/pkg/mod
+# environment
+HOME = /home/number9
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/number9/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = number9
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+KDE_FULL_SESSION = true
+# environment
+ZSH = /home/number9/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+COLORTERM = truecolor
+# environment
+KONSOLE_DBUS_SESSION = /Sessions/2
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = number9
+# environment
+LC_MONETARY = en_US.UTF-8
+# makefile
+.DEFAULT_GOAL := default
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+OLDPWD = /home/number9/Projects
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = 
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-df621f5b-1.68.1-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SHELL_SESSION_ID = d4b9a8644cc24951b11d31b507db429c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+COLORFGBG = 15;0
+# makefile (from 'Makefile', line 16)
+GO_VET := go vet -atomic -bool -copylocks -nilfunc -printf -rangeloops -unreachable -unsafeptr -unusedresult .
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = en_US.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+GOPRIVATE = gl.syncplify.com/*
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+P9K_TTY = old
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+KONSOLE_DBUS_SERVICE = :1.84
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/pts/2
+# environment
+VSCODE_PID = 10063
+# environment
+KDE_SESSION_UID = 1000
+ 
+# variable set hash-table stats:
+# Load=134/1024=13%, Rehash=0, Collisions=19/164=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 2240433): 43 files, no impossibilities.
+
+# 43 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: default install build test quicktest fmt vet lint
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 08:25:12.582037743
+#  File has been updated.
+#  Successfully updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	go test -v $(RACE_FLAG) -cover ./...
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	go build -v ./...
+
+vet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(GO_VET)
+
+default: fmt vet lint build quicktest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	@echo gofmt -l .
+	@OUTPUT=`gofmt -l . 2>&1`; \
+	if [ "$$OUTPUT" ]; then \
+		echo "gofmt must be run on the following files:"; \
+		echo "$$OUTPUT"; \
+		exit 1; \
+	fi
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+	@echo golint ./...
+	@OUTPUT=`command -v golint >/dev/null 2>&1 && golint ./... 2>&1`; \
+	if [ "$$OUTPUT" ]; then \
+		echo "golint errors:"; \
+		echo "$$OUTPUT"; \
+		exit 1; \
+	fi
+
+quicktest:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	go test ./...
+
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	go get -t -v ./...
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/44=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 57 / storage = 543 B / avg = 9 B
+# current buf: size = 8162 B / used = 543 B / count = 57 / avg = 9 B
+
+# strcache performance: lookups = 83 / hit rate = 31%
+# hash-table stats:
+# Load=57/8192=1%, Rehash=0, Collisions=3/83=4%
+# Finished Make data base on Tue Jul  5 08:25:23 2022
+
+ 

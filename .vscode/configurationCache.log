@@ -1,0 +1,1 @@
+{"buildTargets":["build","default","fmt","install","lint","quicktest","test","vet"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

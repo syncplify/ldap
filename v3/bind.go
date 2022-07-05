@@ -518,7 +518,7 @@ func (l *Conn) NTLMChallengeBind(ntlmBindRequest *NTLMBindRequest) (*NTLMBindRes
 		if ntlmBindRequest.Hash != "" {
 			responseMessage, err = ntlmssp.ProcessChallengeWithHash(ntlmsspChallenge, ntlmBindRequest.Username, ntlmBindRequest.Hash)
 		} else if ntlmBindRequest.Password != "" || ntlmBindRequest.AllowEmptyPassword {
-			responseMessage, err = ntlmssp.ProcessChallenge(ntlmsspChallenge, ntlmBindRequest.Username, ntlmBindRequest.Password)
+			responseMessage, err = ntlmssp.ProcessChallenge(ntlmsspChallenge, ntlmBindRequest.Username, ntlmBindRequest.Password, false)
 		} else {
 			err = fmt.Errorf("need a password or hash to generate reply")
 		}
