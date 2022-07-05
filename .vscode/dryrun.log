@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/number9/Projects/ldap'
+ 
+echo gofmt -l .
+OUTPUT=`gofmt -l . 2>&1`; \
+if [ "$OUTPUT" ]; then \
+	echo "gofmt must be run on the following files:"; \
+	echo "$OUTPUT"; \
+	exit 1; \
+fi
+go vet -atomic -bool -copylocks -nilfunc -printf -rangeloops -unreachable -unsafeptr -unusedresult .
+echo golint ./...
+OUTPUT=`command -v golint >/dev/null 2>&1 && golint ./... 2>&1`; \
+if [ "$OUTPUT" ]; then \
+	echo "golint errors:"; \
+	echo "$OUTPUT"; \
+	exit 1; \
+fi
+go build -v ./...
+go test ./...
+make: Leaving directory '/home/number9/Projects/ldap'
+ 
